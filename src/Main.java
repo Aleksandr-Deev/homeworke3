@@ -21,15 +21,14 @@ public class Main {
 
         float filter = 27.12f;
         long look = 987678965549L;
-        char boom = 2;
-        short slack = 786;
+        double boom = 2.786;
         boolean leg = false;
         short sim = 569;
         short socks = -159;
         int inter = 27879;
         byte dog = 67;
         System.out.println("filter " + filter + ", look " + look + ", boom " + boom +
-                ", slack " + slack + ", leg " + leg + ", sim " + sim + ", socks " + socks +
+                ", leg " + leg + ", sim " + sim + ", socks " + socks +
                 ", inter " + inter + ", dog " + dog + ".");
 
         System.out.println();
@@ -50,8 +49,8 @@ public class Main {
         int perMinute = productivity / time;
         int minute20 = 20 * perMinute;
         int day = 24 * perMinute;
-        int threeDays = 24 * 3 * perMinute;
-        int month = 24 * 30 * perMinute;
+        int threeDays = 3 * day * perMinute;
+        int month = 30 * day * perMinute;
         System.out.println("За 20 минут машина произвела бутылок " + minute20 + " штук.");
         System.out.println("За сутки машина произвела бутылок " + day + " штук.");
         System.out.println("За три дня машина произвела бутылок " + threeDays + " штук.");
@@ -72,11 +71,11 @@ public class Main {
         System.out.println();
         //Задание √6
 
-        double bananas = 80*5;
-        double milk = 105 * 2;
-        double iceCream = 100 * 2;
-        double eggs = 70 * 4;
-        double allWeight = (bananas + milk + iceCream + eggs) / 1000;
+        int bananas = 80*5;
+        int milk = 105 * 2;
+        int iceCream = 100 * 2;
+        int eggs = 70 * 4;
+        int allWeight = (bananas + milk + iceCream + eggs) / 1000;
         System.out.println( "Вес спорт-завтрака - " + allWeight + " кг.");
 
         System.out.println();
